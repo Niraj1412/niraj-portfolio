@@ -10,7 +10,7 @@ const about = {
   role: 'Front End Engineer',
   description:
     'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
-  resume: 'https://example.com',
+  resume: 'https://drive.google.com/file/d/1osfeMD683lhMytDlV-Zx5v5fkY-iAN1g/view?usp=sharing',
   social: {
     linkedin: 'https://linkedin.com',
     github: 'https://github.com',
@@ -65,7 +65,7 @@ const skills = [
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: 'johnsmith@mail.com',
+  email: '14nirajkumar@gmail.com',
 }
 
 export { header, about, projects, skills, contact }
