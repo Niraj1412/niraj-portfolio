@@ -1,70 +1,68 @@
 const header = {
-  // all the properties are optional - can be left empty or deleted
   homepage: 'https://github.com/Niraj1412',
   title: 'Niraj.',
 }
 
 const about = {
-  // all the properties are optional - can be left empty or deleted
   name: 'Niraj Kumar Mahto',
-  role: 'Front End Engineer',
+  role: 'Full Stack Engineer | AI & Web Developer',
   description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
+    "I'm passionate about building intelligent, user-focused web products that merge creativity with technology. I love turning complex ideas into seamless digital experiences — whether it's optimizing performance, crafting intuitive UI, or integrating AI to make tools smarter and faster. Currently, I’m working on ClipSmart AI, an intelligent video platform that lets users instantly search, identify, and extract clips from videos.",
   resume: 'https://drive.google.com/file/d/1osfeMD683lhMytDlV-Zx5v5fkY-iAN1g/view?usp=sharing',
   social: {
-    linkedin: 'https://linkedin.com',
-    github: 'https://github.com',
+    linkedin: 'https://linkedin.com/in/niraj1412',
+    github: 'https://github.com/Niraj1412',
   },
 }
 
 const projects = [
-  // projects can be added an removed
-  // if there are no projects, Projects section won't show up
   {
-    name: 'Project 1',
+    name: 'ClipSmart AI',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'An AI-powered video platform that allows users to instantly search, identify, and extract clips from videos. Built with a scalable backend using MongoDB and AWS, and integrates advanced text-to-video indexing for seamless content discovery.',
+    stack: ['React', 'Node.js', 'MongoDB', 'AWS', 'OpenAI API'],
+    sourceCode: 'https://github.com/Niraj1412/AI-Clip',
+    livePreview: '',
   },
   {
-    name: 'Project 2',
+    name: 'Library Management System',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'A full-stack platform with React frontend and Django REST Framework backend for managing books, member accounts, lending, and authentication. Features include auto-generated API docs and admin analytics.',
+    stack: ['React', 'Django REST Framework', 'PostgreSQL'],
+    sourceCode: 'https://github.com/Niraj1412/Library_management_system-client',
+    livePreview: '',
   },
   {
-    name: 'Project 3',
+    name: 'Stock Search Web App',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'A Python and Streamlit-powered dashboard that visualizes Yahoo! Finance data, enabling users to analyze stock performance with interactive charts and summaries.',
+    stack: ['Python', 'Streamlit', 'Yahoo Finance API', 'Plotly'],
+    sourceCode: 'https://github.com/Niraj1412/Stock-Search-Web-App',
+    livePreview: '',
   },
 ]
 
 const skills = [
-  // skills can be added or removed
-  // if there are no skills, Skills section won't show up
   'HTML',
   'CSS',
   'JavaScript',
   'TypeScript',
   'React',
-  'Redux',
-  'SASS',
-  'Material UI',
+  'Next.js',
+  'Node.js',
+  'Express.js',
+  'MongoDB',
+  'AWS',
+  'PostgreSQL',
+  'Python',
+  'Django',
   'Git',
   'CI/CD',
-  'Jest',
-  'Enzyme',
+  'REST API',
+  'OpenAI API',
 ]
 
 const contact = {
-  // email is optional - if left empty Contact section won't show up
   email: '14nirajkumar@gmail.com',
 }
 
