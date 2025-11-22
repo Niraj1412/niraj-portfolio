@@ -7,7 +7,7 @@ const about = {
   name: 'Niraj Kumar Mahto',
   role: 'Full Stack Engineer | AI & Web Developer',
   description:
-    "I'm passionate about building intelligent, user-focused web products that merge creativity with technology. I love turning complex ideas into seamless digital experiences — whether it's optimizing performance, crafting intuitive UI, or integrating AI to make tools smarter and faster. Currently, I’m working on ClipSmart AI, an intelligent video platform that lets users instantly search, identify, and extract clips from videos.",
+    "I'm passionate about building intelligent, user-focused web products that merge creativity with technology. I love turning complex ideas into seamless digital experiences -- whether it's optimizing performance, crafting intuitive UI, or integrating AI to make tools smarter and faster. Currently, I'm working on ClipSmart AI, an intelligent video platform that lets users instantly search, identify, and extract clips from videos.",
   resume: 'https://drive.google.com/file/d/1osfeMD683lhMytDlV-Zx5v5fkY-iAN1g/view?usp=sharing',
   social: {
     linkedin: 'https://linkedin.com/in/niraj1412',

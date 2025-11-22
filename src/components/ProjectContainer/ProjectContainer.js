@@ -5,7 +5,30 @@ import './ProjectContainer.css'
 
 const ProjectContainer = ({ project }) => (
   <div className='project'>
-    <h3>{project.name}</h3>
+    <div className='project__header'>
+      <h3>{project.name}</h3>
+      <div className='project__links'>
+        {project.sourceCode && (
+          <a
+            href={project.sourceCode}
+            aria-label='source code'
+            className='link link--icon'
+          >
+            <GitHubIcon />
+          </a>
+        )}
+
+        {project.livePreview && (
+          <a
+            href={project.livePreview}
+            aria-label='live preview'
+            className='link link--icon'
+          >
+            <LaunchIcon />
+          </a>
+        )}
+      </div>
+    </div>
 
     <p className='project__description'>{project.description}</p>
     {project.stack && (
@@ -16,26 +39,6 @@ const ProjectContainer = ({ project }) => (
           </li>
         ))}
       </ul>
-    )}
-
-    {project.sourceCode && (
-      <a
-        href={project.sourceCode}
-        aria-label='source code'
-        className='link link--icon'
-      >
-        <GitHubIcon />
-      </a>
-    )}
-
-    {project.livePreview && (
-      <a
-        href={project.livePreview}
-        aria-label='live preview'
-        className='link link--icon'
-      >
-        <LaunchIcon />
-      </a>
     )}
   </div>
 )

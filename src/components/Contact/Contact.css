@@ -1,3 +1,34 @@
-.contact {
-  flex-direction: column;
+.contact__card {
+  background: linear-gradient(120deg, rgba(14, 165, 233, 0.12), rgba(34, 197, 94, 0.1)),
+    var(--clr-surface);
+  border: 1px solid rgba(14, 165, 233, 0.32);
+  border-radius: 20px;
+  padding: 1.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  box-shadow: var(--shadow);
+  flex-wrap: wrap;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.contact__lede {
+  font-size: 1.05rem;
+  color: var(--clr-fg);
+  max-width: 720px;
+  line-height: 1.6;
+}
+
+.contact__card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 26px 70px rgba(0, 0, 0, 0.2);
+  border-color: rgba(14, 165, 233, 0.45);
+}
+
+@media (max-width: 720px) {
+  .contact__card {
+    padding: 1.5rem;
+    align-items: flex-start;
+  }
 }
